@@ -6,6 +6,18 @@ public class Student {
 	private String fEntrada;
 	private String carrera;
 	private Boolean estado;
+	
+	
+	
+	
+	public Student(String nombre, String apellido, String fEntrada, String carrera, Boolean estado) {
+		super();
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.fEntrada = fEntrada;
+		this.carrera = carrera;
+		this.estado = estado;
+	}
 	public String getNombre() {
 		return nombre;
 	}
