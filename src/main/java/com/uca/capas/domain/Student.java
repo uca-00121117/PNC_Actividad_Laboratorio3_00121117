@@ -18,6 +18,10 @@ public class Student {
 		this.carrera = carrera;
 		this.estado = estado;
 	}
+
+	public Student() {
+		
+	}
 	public String getNombre() {
 		return nombre;
 	}
